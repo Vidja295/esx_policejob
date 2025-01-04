@@ -19,7 +19,7 @@ INSERT INTO `job_grades` (job_name, grade, name, label, salary, skin_male, skin_
 	('police',1,'officer','Oficir',40,'{}','{}'),
 	('police',2,'sergeant','Narednik',60,'{}','{}'),
 	('police',3,'lieutenant','Poručnik',85,'{}','{}'),
-	('police',4,'boss','Načelnik',100,'{}','{}')
+	('police',4,'boss','Kapetan',100,'{}','{}')
 ;
 
 CREATE TABLE `fine_types` (
