@@ -15,16 +15,11 @@ INSERT INTO `jobs` (name, label) VALUES
 ;
 
 INSERT INTO `job_grades` (job_name, grade, name, label, salary, skin_male, skin_female) VALUES
-	('police',0,'aspirant','Aspirant',0,'{}','{}'),
-	('police',1,'surveillant','Surveillant',0,'{}','{}'),
-	('police',2,'agent','Agent',0,'{}','{}'),
-	('police',3,'hoofdagent','Hoofdagent',0,'{}','{}'),
-	('police',4,'brigadier','Brigadier',0,'{}','{}'),
-  ('police',5,'inspecteur','Inspecteur',0,'{}','{}'),
-  ('police',6,'hoofdinspecteur','Hoofdinspecteur',0,'{}','{}'),
-  ('police',7,'commissaris','Commissaris',0,'{}','{}'),
-  ('police',8,'hoofdcommissaris','Hoofdcommissaris',0,'{}','{}'),
-	('police',9,'boss','Eerste Hoofdcommissaris',0,'{}','{}')
+	('police',0,'recruit','Rekruut',20,'{}','{}'),
+	('police',1,'officer','Officer',40,'{}','{}'),
+	('police',2,'sergeant','Sergeant',60,'{}','{}'),
+	('police',3,'lieutenant','Luitenant',85,'{}','{}'),
+	('police',4,'boss','Commandant',100,'{}','{}')
 ;
 
 CREATE TABLE `fine_types` (
