@@ -266,7 +266,7 @@ function OpenPoliceActionsMenu()
 
 			ESX.OpenContext("right", elements2, function(menu2,element2)
 				local closestPlayer, closestDistance = ESX.Game.GetClosestPlayer()
-				if closestPlayer ~= -1 and closestDistance <= 3.0 then
+				if closestPlayer ~= -1 and closestDistance <= 2.0 then
 					local data2 = {current = element2}
 					local action = data2.current.value
 
